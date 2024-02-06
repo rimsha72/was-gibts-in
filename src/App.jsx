@@ -1,14 +1,18 @@
-import { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Layout from './components/RootLayout/Layout';
+import HomePage from './pages/Home';
 
-function App() {
-  
+const App = () => {
   return (
-    <>
-     <div className='max-w-screen-xl lg:mx-8 mx-4'>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Layout>
+    </Router>
+  );
+};
 
-     </div>
-    </>
-  )
-}
-
-export default App
+export default App;
