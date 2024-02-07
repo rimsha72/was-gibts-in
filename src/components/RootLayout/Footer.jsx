@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-blue-350 text-white">
-        <div className="container pb-10 pt-20 lg:pb-20 lg:pt-[120px] max-w-screen-xl mx-auto lg:px-0 px-4">
+        <div className="container pb-10 pt-20 lg:pb-20 lg:pt-[120px] max-w-screen-xl mx-auto lg:px-0 px-5">
           <div className="lg:gap-16 gap-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">

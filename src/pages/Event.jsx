@@ -4,7 +4,7 @@ import { IoIosSearch } from "react-icons/io";
 function Event() {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto lg:px-0 px-4">
+      <div className="max-w-screen-xl mx-auto lg:px-0 px-5">
         <div className="flex lg:flex-row flex-col">
           <div className="lg:w-1/2 lg:px-16 lg:border-gray lg:border-r-2 my-8">
             <div className="relative py-8">

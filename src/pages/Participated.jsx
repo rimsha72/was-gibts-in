@@ -7,7 +7,7 @@ import club1 from "../assets/club6.png";
 function Participated() {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto px-4 py-8">
+      <div className="max-w-screen-xl mx-auto px-5 py-8">
         <p className="text-2xl font-semibold pb-8">
           Participated Companies Vouchers{" "}
         </p>

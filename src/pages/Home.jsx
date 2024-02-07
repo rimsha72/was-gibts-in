@@ -8,7 +8,7 @@ import Products from "../components/Home/Products";
 function Home() {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto lg:px-0 px-4">
+      <div className="max-w-screen-xl mx-auto lg:px-0 px-5">
         <WeatherWidget />
         <Location />
         <Companies />
