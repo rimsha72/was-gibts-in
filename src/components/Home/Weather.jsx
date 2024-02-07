@@ -1,18 +1,62 @@
-import React from "react";
-import weather from "../../assets/weather.png"
-import weather1 from "../../assets/weather1.png"
+import React, { useState } from "react";
+import weather from "../../assets/weather.png";
+import weather1 from "../../assets/weather1.png";
 import { FaLocationDot } from "react-icons/fa6";
-import temperature from "../../assets/temperature.png"
-import cloud from "../../assets/cloud.png"
-import map from "../../assets/map.png"
-import { IoIosArrowForward } from "react-icons/io";
+import temperature from "../../assets/temperature.png";
+import cloud from "../../assets/cloud.png";
+import map from "../../assets/map.png";
+import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io"; 
+import { Link } from "react-router-dom";
+
 const WeatherWidget = () => {
+  const [showRestaurantsSubmenu, setShowRestaurantsSubmenu] = useState(false);
+  const [showTattooArtistsSubmenu, setShowTattooArtistsSubmenu] =
+    useState(false);
+
+  const toggleRestaurantsSubmenu = () =>
+    setShowRestaurantsSubmenu(!showRestaurantsSubmenu);
+  const toggleTattooArtistsSubmenu = () =>
+    setShowTattooArtistsSubmenu(!showTattooArtistsSubmenu);
   return (
     <div className="flex">
       <div className="lg:w-1/5 px-4 py-8 border-gray border-r lg:block hidden">
         <ul className="space-y-4 text-base text-black">
-          <li className="flex justify-between items-center">Restaurants <IoIosArrowForward /></li>
-          <li className="flex justify-between items-center">Tattoo Artists <IoIosArrowForward /></li>
+          <li
+            className="flex justify-between items-center"
+            onClick={toggleRestaurantsSubmenu}
+          >
+            Restaurants{" "}
+            {showRestaurantsSubmenu ? (
+              <IoIosArrowDown />
+            ) : (
+              <IoIosArrowForward />
+            )}
+          </li>
+          {showRestaurantsSubmenu && (
+            <ul className="pl-4 space-y-2 text-sm text-blue-350">
+              <li>Italian</li>
+              <li>Mexican</li>
+              <li>Chinese</li>
+            </ul>
+          )}
+          <li
+            className="flex justify-between items-center"
+            onClick={toggleTattooArtistsSubmenu}
+          >
+            Tattoo Artists{" "}
+            {showTattooArtistsSubmenu ? (
+              <IoIosArrowDown />
+            ) : (
+              <IoIosArrowForward />
+            )}
+          </li>
+          {showTattooArtistsSubmenu && (
+            <ul className="pl-4 space-y-2 text-sm text-blue-350">
+              <li>Artist 1</li>
+              <li>Artist 2</li>
+              <li>Artist 3</li>
+            </ul>
+          )}
           <li>Gym</li>
           <li>Bowling</li>
           <li>Cafe</li>
@@ -43,34 +87,48 @@ const WeatherWidget = () => {
                 <FaLocationDot className="w-5 h-5" />
               </div>
               <div className="flex px-4 lg:gap-4 gap-2 ">
-                <img src={temperature} alt="" className="w-[12px] h-[40px] mt-6" />
+                <img
+                  src={temperature}
+                  alt=""
+                  className="w-[12px] h-[40px] mt-6"
+                />
                 <h1 className="lg:text-5xl text-3xl">27°C</h1>
                 <img src={cloud} alt="" className="w-[78px] h-[50px]" />
               </div>
             </div>
-            <p className="text-xs underline font-medium pb-4">Aug 23,  Tue</p>
+            <p className="text-xs underline font-medium pb-4">Aug 23, Tue</p>
             <div className="flex justify-between">
               <div className="">
                 <h1 className="uppercase font-medium text-sm">Humidity</h1>
-                <h1 className="uppercase font-medium text-xs underline mt-2 text-center">10%</h1>
+                <h1 className="uppercase font-medium text-xs underline mt-2 text-center">
+                  10%
+                </h1>
               </div>
               <div className="">
                 <h1 className="uppercase font-medium text-sm">Visiblity</h1>
-                <h1 className="uppercase font-medium text-xs underline mt-2 text-center">10%</h1>
+                <h1 className="uppercase font-medium text-xs underline mt-2 text-center">
+                  10%
+                </h1>
               </div>
               <div className="">
                 <h1 className="uppercase font-medium text-sm">Air Pressure</h1>
-                <h1 className="uppercase font-medium text-xs underline mt-2 text-center">10%</h1>
+                <h1 className="uppercase font-medium text-xs underline mt-2 text-center">
+                  10%
+                </h1>
               </div>
               <div className="">
                 <h1 className="uppercase font-medium text-sm">Wind</h1>
-                <h1 className="uppercase font-medium text-xs underline mt-2 text-center">10%</h1>
+                <h1 className="uppercase font-medium text-xs underline mt-2 text-center">
+                  10%
+                </h1>
               </div>
             </div>
           </div>
         </div>
-        <div className="py-8">
-          <img src={map} alt="" className="lg:w-[963px] lg:h-[364px]"/>
+        <div className="py-5">
+          <Link to="/catalog">
+            <img src={map} alt="" className="lg:w-[963px] lg:h-[364px]" />
+          </Link>
         </div>
       </div>
     </div>
