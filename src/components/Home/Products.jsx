@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <div className="lg:py-16 border-gray border-b text-black">
       <div className="flex gap-4 items-center">
-        <hr className="w-[20px] my-4 bg-blue-350 h-[40px] border-0 rounded-full"></hr>
+        <hr className="w-[20px] my-4 bg-blue-350 h-[40px] border-0 rounded"></hr>
         <p className="font-semibold text-base text-blue-350">Our Products</p>
       </div>
       <div className="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-0 gap-4">
