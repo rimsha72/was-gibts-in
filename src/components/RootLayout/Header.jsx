@@ -12,7 +12,7 @@ const Header = () => {
     <nav className="border border-b">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 lg:px-0 px-5">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logo} className="w-[181px] h-[45px]" alt="Flowbite Logo" />
+          <img src={logo} className="w-[181px] h-[45px]" alt="Logo" />
         </a>
         <div className="flex md:order-2">
           <button
