@@ -14,7 +14,7 @@ function Home() {
         <Companies />
         <Events />
         <Coupons />
-        <Products />
+        {/* <Products /> */}
       </div>
     </>
   );
