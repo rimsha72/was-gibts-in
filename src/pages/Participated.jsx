@@ -1,6 +1,7 @@
 import React from "react";
 import voucher from "../assets/voucher.png";
-import bg from "../assets/bg.png";
+import bg from "../assets/voucherbg.png";
+import bg2 from "../assets/vouche.png";
 import club from "../assets/club5.png";
 import club1 from "../assets/club6.png";
 
@@ -14,25 +15,20 @@ function Participated() {
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-x-4 gap-y-8">
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
@@ -57,25 +53,20 @@ function Participated() {
           </div>
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
@@ -100,25 +91,20 @@ function Participated() {
           </div>
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
@@ -143,25 +129,20 @@ function Participated() {
           </div>
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
@@ -186,25 +167,20 @@ function Participated() {
           </div>
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
@@ -229,25 +205,20 @@ function Participated() {
           </div>
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
@@ -272,25 +243,20 @@ function Participated() {
           </div>
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
@@ -315,25 +281,20 @@ function Participated() {
           </div>
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
@@ -358,25 +319,20 @@ function Participated() {
           </div>
           <div>
             <div
-              className="w-full md:max-w-sm p-4 relative h-32 md:h-[131px] bg-no-repeat lg:bg-contain bg-cover mb-4"
-              style={{ backgroundImage: `url(${bg})` }}
+              className="w-full md:max-w-sm p-4 relative h-36 md:h-[131px] bg-no-repeat bg-contain mb-4"
+              style={{ backgroundImage: `url(${bg2})` }}
             >
-              <div className="absolute top-0 left-0 ml-4 md:mt-0">
-                <img
-                  src={voucher}
-                  alt="voucher"
-                  className="w-48 h-20 md:w-[193px] md:h-[81px]"
-                />
-              </div>
-              <div className="flex flex-row md:absolute lg:bottom-4 bottom-6 md:gap-6 items-center text-white">
-                <div className="font-bold text-xs md:text-sm mt-24 md:mt-0">
-                  Voucher
+              <div className="md:absolute lg:bottom-4 bottom-0 lg:mt-0 mt-12 md:gap-6 items-center text-white">
+                <div className="flex flex-row lg:gap-8 gap-4">
+                  <div className="font-bold text-xs md:text-sm ">
+                    Voucher
+                  </div>
+                  <p className="text-xs px-2 py-1 border-2 border-blue-350 lg:rounded-full rounded-md">
+                    Use until 15 July 2023
+                  </p>
                 </div>
-                <p className="text-xs px-2 py-1 border border-white rounded-full lg:mt-0 mt-6">
-                  Use until 15 July 2023
-                </p>
               </div>
-              <div className="absolute lg:bottom-8 lg:right-2 p-2 text-white text-center">
+              <div className="absolute top-8 right-6 text-center text-white">
                 <p className="font-medium text-base md:text-lg">30%</p>
                 <span className="text-xs md:text-sm">5 days left</span>
               </div>
